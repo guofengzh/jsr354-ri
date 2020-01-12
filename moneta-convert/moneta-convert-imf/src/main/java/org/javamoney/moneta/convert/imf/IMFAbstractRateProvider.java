@@ -56,7 +56,7 @@ abstract class IMFAbstractRateProvider extends AbstractRateProvider implements L
 
     static final Comparator<ExchangeRate> COMPARATOR_EXCHANGE_BY_LOCAL_DATE = Comparator.comparing(c -> c.getContext().get(LocalDate.class));
 
-    static final String DEFAULT_USER_AGENT = "Chrome/51.0.2704.103";
+    static final String DEFAULT_USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.63 Safari/537.36";
 
 	protected static final Map<String, CurrencyUnit> CURRENCIES_BY_NAME = new HashMap<>();
 

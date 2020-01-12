@@ -51,7 +51,7 @@ public class IMFRateProvider extends IMFAbstractRateProvider {
     private static final ProviderContext CONTEXT = ProviderContextBuilder.of("IMF", RateType.DEFERRED)
             .set("providerDescription", "International Monetary Fond")
             .set("days", 1)
-            .set("User-Agent", "Chrome/51.0.2704.103")
+            .set("User-Agent", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.63 Safari/537.36")
             .build();
 
     public IMFRateProvider() {
