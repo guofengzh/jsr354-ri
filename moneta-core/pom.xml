@@ -40,18 +40,13 @@
 		<url>https://github.com/JavaMoney/jsr354-ri</url>
 	</scm>
 
-	<distributionManagement>
-		<repository>
-			<id>bintray-release</id>
-			<name>oss-jfrog-artifactory-release</name>
-			<url>https://oss.jfrog.org/artifactory/oss-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>bintray-snapshot</id>
-			<name>oss-jfrog-artifactory-snapshot</name>
-			<url>https://oss.jfrog.org/artifactory/oss-snapshot-local</url>
-		</snapshotRepository>
-	</distributionManagement>
+        <distributionManagement>
+           <repository>
+             <id>local.repo</id>
+             <name>Local Repository</name>
+             <url>file://C:\mvn-repo\releases</url>
+          </repository>
+        </distributionManagement>
 
 	<repositories>
 		<repository>
